@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Crear cuenta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+    </head>
+<body>
+    
+    <form id="signInForm">
+
+    <div class="campo">
+     <label for="nombre" class="lblArriba">Nombre</label>
+     <input type="text" id="nombre">
+     <label class="error"></label>
+     <label class="bien"></label>
+    </div>
+
+    <div class="campo">
+     <label for="email" class="lblArriba">Email</label>
+     <input type="email" id="email">
+     <label class="error"></label>
+     <label class="bien"></label>
+
+    </div>
+
+    <div class="campo">
+     <label for="contrasena" class="lblArriba">Contraseña</label>
+     <input type="password" id="contrasena">
+     <label class="error"></label>
+     <label class="bien"></label>
+
+    </div>
+
+    <div class="campo">
+    <label for="confirmarContrasena" class="lblArriba">Confirmar contraseña</label>
+    <input type="password" id="confirmarContrasena">
+    <label class="error"></label>
+    <label class="bien"></label>
+
+    </div>
+
+    <div class="campo">   
+    <button type="submit"><b>Registrarse</b></button>  
+    <label class="error" id="errorSubmit"></label>
+    <label class="bien" id="bienSubmit"></label>
+    </div>
+   </form>
+
+     
+    <script src="script.js"></script>
+</body>
+</html>
